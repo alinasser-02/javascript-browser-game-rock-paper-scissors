@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:lightsalmon;
+  background-color: lightsalmon;
 }
 header {
   display: flex;
@@ -18,25 +18,21 @@ header {
   align-items: center;
 }
 
-#result-display
-{
-
+#result-display {
   min-height: 20px;
-
 }
 
 button {
-
   margin: 10px;
   font-size: 40px;
   background-color: transparent;
-  border: 1px solid rgba(0,0,0,.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 
-button:hover{
-  border: 1px solid rgba(0,0,0,0.5);
+button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
