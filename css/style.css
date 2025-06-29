@@ -1,7 +1,7 @@
-* {
+*
+{
   box-sizing: border-box;
 }
-
 html,
 body {
   margin: 0;
@@ -22,17 +22,22 @@ header {
   min-height: 20px;
 }
 
-button {
+.game-button {
   margin: 10px;
   font-size: 40px;
   background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 
-button:hover {
-  border: 1px solid rgba(0, 0, 0, 0.5);
+.game-button:hover {
+  border: 10px solid rgba(17, 18, 19, 0.803);
   cursor: pointer;
+}
+
+#resetButton
+{
+margin: 20px;
+margin-bottom: 25px;
 }
