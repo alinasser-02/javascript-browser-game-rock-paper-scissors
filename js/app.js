@@ -52,7 +52,7 @@ function compare() {
     msg = "You lose! Try again?";
   }
 }
-function reset(){  playerChoice = null;
+function resetGame(){  playerChoice = null;
   computerChoice = null;
   resultDisplayEl.textContent = '' ;
 }
