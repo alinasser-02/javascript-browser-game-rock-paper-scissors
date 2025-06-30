@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: lightsalmon;
+  font-family: cursive;
 }
 header {
   display: flex;
@@ -40,4 +41,8 @@ header {
 {
 margin: 20px;
 margin-bottom: 25px;
+}
+.btn {
+
+  margin-top: 20px;
 }
